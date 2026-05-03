@@ -11,3 +11,28 @@ Podcasts feitos em vídeo
  - [saúde, fitness, mentalidade, humor]
 - Filtrar episódios por nome de podcast
 
+### Como vou implementar
+Vou retornar em uma api rest (json) o nome do podcast, nome do episódio, imagem de capa, link
+
+```js
+[
+    {
+    podcasName: "flow",
+    episode: "CBUM - Flow #319",
+    cover: "https://...",
+    link: "https://...",
+    categories: ["saúde", "bodybuilding"]
+
+    },
+    {
+    podcasName: "flow",
+    episode: "RUBENS BARRICHELLO - Flow #339",
+    cover: "https://...",
+    link: "https://...",
+    categories: ["esporte", "corrida"]
+    }
+]
+```
+
+
+
